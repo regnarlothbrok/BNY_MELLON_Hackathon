@@ -10,7 +10,7 @@
    ```
 2. Create a virtual environment
    ```bash
-      python -m venv ./venv
+   python -m venv ./venv
    ```
 3. Install requirements:
    ```bash
@@ -18,7 +18,7 @@
    ```
 4. Run server:
    ```bash
-    python main.py
+   python main.py
    ```
 
 ### Running client:
