@@ -24,7 +24,7 @@ functions = [
                         "properties": {
                             "transaction_date": {
                                 "type": "string",
-                                "description": "date of transaction in DD/MM/YYYY format",
+                                "description": "date of transaction in YYYY-MM-DD format",
                             },
                             "credit_or_debit": {
                                 "type": "string",
@@ -39,12 +39,17 @@ functions = [
                                 "type": "number",
                                 "description": "remaining balance in the account",
                             },
+                            "description": {
+                                "type": "string",
+                                "description": "description of the transaction",
+                            },
                         },
                         "required": [
                             "transaction_date",
                             "credit_or_debit",
                             "amount",
                             "balance",
+                            "description",
                         ],
                     },
                 },
